@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Kurin HAR Edition</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAttributeAdd">
+          <xpath>Defs/ScenarioDef[defName = "kurin_Mechanitor"]</xpath>
+          <attribute>MayRequire</attribute>
+          <value>Ludeon.RimWorld.Biotech</value>
+        </li>
+        <li Class="PatchOperationAttributeAdd">
+          <xpath>Defs/HediffDef[defName = "Kurin_MechanitorEarHediff"]</xpath>
+          <attribute>MayRequire</attribute>
+          <value>Ludeon.RimWorld.Biotech</value>
+        </li>
+        <li Class="PatchOperationAttributeAdd">
+          <xpath>Defs/RecipeDef[defName = "Kurin_InstallMechanitorEar"]</xpath>
+          <attribute>MayRequire</attribute>
+          <value>Ludeon.RimWorld.Biotech</value>
+        </li>
+        <li Class="PatchOperationAttributeAdd">
+          <xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[4]/hediffGraphics/Kurin_MechanitorEarHediff</xpath>
+          <attribute>MayRequire</attribute>
+          <value>Ludeon.RimWorld.Biotech</value>
+        </li>
+        <li Class="PatchOperationAttributeAdd">
+          <xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[5]/hediffGraphics/Kurin_MechanitorEarHediff</xpath>
+          <attribute>MayRequire</attribute>
+          <value>Ludeon.RimWorld.Biotech</value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
