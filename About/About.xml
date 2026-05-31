@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <packageId>DePaWSiT.Kurin.Mech.Patch</packageId>
-  <name>Kurin Mechanitor patch</name>
+  <packageId>DePaWSiT.Kurin.BiotechPatch</packageId>
+  <name>Kurin Biotech patch</name>
   <author>DePaWSiT</author>
-  <description>Adds a few missing MayRequire="Ludeon.Rimworld.Biotech" attributes so that mechanitor related errors go away</description>
+  <description>Adds a few missing MayRequire="Ludeon.Rimworld.Biotech" attributes so that biotech related errors go away</description>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>

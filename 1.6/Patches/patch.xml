@@ -23,12 +23,22 @@
           <value>Ludeon.RimWorld.Biotech</value>
         </li>
         <li Class="PatchOperationAttributeAdd">
-          <xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[4]/hediffGraphics/Kurin_MechanitorEarHediff</xpath>
+          <xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[4]/extendedGraphics/Age[@For="HumanlikePreTeenager"]</xpath>
           <attribute>MayRequire</attribute>
           <value>Ludeon.RimWorld.Biotech</value>
         </li>
         <li Class="PatchOperationAttributeAdd">
-          <xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[5]/hediffGraphics/Kurin_MechanitorEarHediff</xpath>
+          <xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[4]/extendedGraphics/Hediff[@For="Kurin_MechanitorEarHediff"]</xpath>
+          <attribute>MayRequire</attribute>
+          <value>Ludeon.RimWorld.Biotech</value>
+        </li>
+        <li Class="PatchOperationAttributeAdd">
+          <xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[5]/extendedGraphics/Age[@For="HumanlikePreTeenager"]</xpath>
+          <attribute>MayRequire</attribute>
+          <value>Ludeon.RimWorld.Biotech</value>
+        </li>
+        <li Class="PatchOperationAttributeAdd">
+          <xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Kurin_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[5]/extendedGraphics/Hediff[@For="Kurin_MechanitorEarHediff"]</xpath>
           <attribute>MayRequire</attribute>
           <value>Ludeon.RimWorld.Biotech</value>
         </li>
